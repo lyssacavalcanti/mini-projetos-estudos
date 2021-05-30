@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: black;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: transparent;
+    -webkit-text-stroke: 14px white;
+    font-size: 15rem;font-family: 'Hind Siliguri', sans-serif;
+    text-shadow: 0px 0px #CF1596;
+    transition: all .4s;
+}
+.text:hover{
+    
+    text-shadow: 12px 12px #0cd0cd,20px 20px #8C52FF,22px 22px 50px #8C52FF;
+}
